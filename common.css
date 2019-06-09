@@ -1,0 +1,132 @@
+/* L SIZE */
+@media screen and (min-width: 1280px){
+    *{
+        padding : 0px;
+        margin : 0px;
+    }
+    
+    body {
+        background-image : url("image/background.jpg");
+    }
+    
+    /* top */
+    .top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    
+    /* top home */
+    .top .home i{
+        font-size : 80px;
+        vertical-align: middle;
+    }
+    
+    /*top account*/
+    .account{
+        display: inline-flex;
+        margin: 20px 10px 20px 0px;
+    }
+    
+    i, p{
+        color: white;
+    }
+    
+    .account i{
+        font-size : 32px;
+        vertical-align: middle;
+        margin-right : 5px;
+    }
+    .account a{
+        text-decoration: none;
+    }
+    
+    .account p{
+        font-size : 13px;
+        font-weight : bold;
+    }
+    
+    .sign_in {
+        margin-right : 24px;
+    }
+    
+    /*menu*/
+    .menu{
+        display: flex;
+        justify-content: center;
+        background-color : rgba(0,0,0, 0.75);
+        width : 100%;
+        height: 80px;
+    }
+    
+    .menu_btns{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .menu_btns a{
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .menu_btns1{
+        width: 50%;
+    }
+    
+    .menu_btns2{
+        width: 30%;
+    }
+    
+    .menu li{
+        width: 150px;
+        height: auto;
+        list-style-type:none;
+        font-size:24px;
+        font-weight: bold;
+        text-align: center;
+        padding:20px 0px;
+    }
+    .menu li:hover{
+        background-color: gray;
+    }
+    /* main content */
+    .maincontent{
+        min-height: 700px;
+    }
+    
+    /* footer */
+    footer{
+        background-color : rgba(0,0,0, 0.75);
+        width : 100%;
+        height: 60px;
+        margin-top: 100px;
+    }
+    
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    .bottom p{
+        width: 500px;
+        text-align: center;
+    }
+    
+}
+
+/* M SIZE */
+@media screen  and (min-width: 321px) and (max-width: 768px){
+    
+    
+}
+
+/* S SIZE */
+@media screen  and (min-width: 0) and (max-width: 321px){
+    
+    
+}
