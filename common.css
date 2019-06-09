@@ -120,13 +120,13 @@
 }
 
 /* M SIZE */
-@media screen  and (min-width: 321px) and (max-width: 768px){
+@media screen  and (min-width: 768x) and (max-width: 1280px){
     
     
 }
 
 /* S SIZE */
-@media screen  and (min-width: 0) and (max-width: 321px){
+@media screen  and (min-width: 0) and (max-width: 768px){
     *{
         padding : 0px;
         margin : 0px;
