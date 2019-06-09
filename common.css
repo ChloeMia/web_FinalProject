@@ -132,6 +132,9 @@
         margin : 0px;
     }
     
+    html{
+        min-width: 320px;
+    }
     body {
         background-image : url("image/background.jpg");
     }
