@@ -1,137 +1,124 @@
 /* L SIZE */
-@media screen and (min-width: 1280px){
-    *{
-        padding : 0px;
-        margin : 0px;
+
+@media screen and (min-width: 1280px) {
+    * {
+        padding: 0px;
+        margin: 0px;
     }
-    
     body {
-        background-image : url("image/background.jpg");
+        background-image: url("image/background.jpg");
     }
-    
     /* top */
-    .top{
+    .top {
         display: flex;
         justify-content: space-between;
         padding: 0% 1.5625%;
     }
-    
     /* top home */
-    .top .home i{
-        font-size : 80px;
+    .top .home i {
+        font-size: 80px;
         vertical-align: middle;
     }
-    
     /*top account*/
-    .account{
+    .account {
         display: inline-flex;
         margin: 2% 0.8% 1.6% 0%;
     }
-    
-    i, p{
+    i, p {
         color: white;
     }
-    
-    .account i{
-        font-size : 32px;
+    .account i {
+        font-size: 32px;
         vertical-align: middle;
-        margin-right : 5px;
+        margin-right: 5px;
     }
-    .account a{
+    .account a {
         text-decoration: none;
     }
-    
-    .account p{
-        font-size : 13px;
-        font-weight : bold;
+    .account p {
+        font-size: 13px;
+        font-weight: bold;
     }
-    
     .sign_in {
-        margin-right : 24px;
+        margin-right: 24px;
     }
-    
     /*menu*/
-    .menu{
+    .menu {
         display: flex;
         justify-content: center;
-        background-color : rgba(0,0,0, 0.75);
-        width : 100%;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
         height: 65px;
     }
-    
-    .menu_btns{
+    .menu_btns {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
         height: 100%;
     }
-    
-    .menu_btns a{
+    .menu_btns a {
         width: 100%;
         color: white;
         text-decoration: none;
     }
-    
-    .menu_btns1{
+    .menu_btns1 {
         width: 50%;
     }
-    
-    .menu_btns2{
+    .menu_btns2 {
         width: 30%;
     }
-    
-    .menu li{
+    .menu li {
         width: 150px;
         height: auto;
-        list-style-type:none;
-        font-size:24px;
+        list-style-type: none;
+        font-size: 24px;
         font-weight: bold;
         text-align: center;
-        padding:20px 0px;
+        padding: 20px 0px;
     }
-    .menu li:hover{
+    .menu li:hover {
         background-color: gray;
     }
     /* main content */
-    .maincontent{
+    .maincontent {
         display: flex;
     }
-    .maincontent_menu{
+    .maincontent_menu {
         min-height: 700px;
         display: block;
         width: 80%;
     }
-    .main_content_h{
+    .main_content_h {
         display: flex;
         padding-left: 14%;
     }
-    .main_content{
+    .main_content {
         display: flex;
         width: 46%;
         height: 240px;
-        margin:25px 0px 0px 2.5%;
+        margin: 25px 0px 0px 2.5%;
         border-radius: 20px;
         background: rgba(0, 0, 0, 0.45);
     }
-    .main_content_picture{
+    .main_content_picture {
         margin: 25px 0px 0px 7%;
         width: 45%;
         height: 80%;
         background: red;
     }
-    .main_content_text_h{
+    .main_content_text_h {
         width: 36%;
         display: block;
     }
-    .main_content_text{
+    .main_content_text {
         margin: 25px 0px 0px 15%;
         width: 100%;
         height: 140px;
         background: blue;
     }
-    .main_content_text_h a{
+    .main_content_text_h a {
         margin-top: 15px;
-        margin-left:50%;
+        margin-left: 50%;
         height: 15px;
         background-color: #4CAF50;
         border: none;
@@ -142,156 +129,150 @@
         display: inline-block;
         font-size: 16px;
     }
-    .maincontent_save{
+    .maincontent_save {
         width: 15%;
         height: 1070px;
         margin-top: 25px;
         background: red;
     }
     /* footer */
-    footer{
-        background-color : rgba(0,0,0, 0.75);
-        width : 100%;
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100%;
         height: 60px;
         margin-top: 100px;
     }
-    
-    .bottom{
+    .bottom {
         display: flex;
         justify-content: space-around;
         font-size: 18px;
         padding: 15px;
     }
-    
-    .bottom p{
+    .bottom p {
         width: 500px;
         text-align: center;
     }
-    
 }
 
 /* M SIZE */
-@media screen  and (min-width: 768px) and (max-width: 1280px){
-    
-    
-}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {}
 
 /* S SIZE */
-@media screen  and (min-width: 0) and (max-width: 768px){
-    *{
-        padding : 0px;
-        margin : 0px;
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    * {
+        padding: 0px;
+        margin: 0px;
     }
-    
-    html{
+    html {
         min-width: 320px;
     }
     body {
-        background-image : url("image/background.jpg");
+        background-image: url("image/background.jpg");
     }
-    
     /* top */
-    .top{
+    .top {
+        display: flex;
         padding: 0px 20px;
         text-align: center;
     }
-    
     /* top home */
-    .top .home i{
-        font-size : 80px;
+    .top .home i {
+        font-size: 80px;
         vertical-align: middle;
     }
-    
     /*top account*/
-    .account{
+    .account {
+        display: flex;
         margin: 20px 10px 20px 0px;
     }
-    
-    i, p{
+    i, p {
         color: white;
     }
-    
-    .account i{
-        font-size : 32px;
+    .account i {
+        font-size: 20px;
         vertical-align: middle;
-        margin-right : 5px;
+        margin-right: 5px;
     }
-    .account a{
+    .account a {
         text-decoration: none;
     }
-    
-    .account p{
-        font-size : 8px;
-        font-weight : bold;
+    .account p {
+        font-size: 8px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
     }
-    
     .sign_in {
-        margin-right : 24px;
+        margin-right: 24px;
     }
-    
-    /*menu*/
-    .menu{
-        display: flex;
-        justify-content: center;
-        background-color : rgba(0,0,0, 0.75);
-        width : 100%;
-        height: 40px;
+    /* menu */
+    .menu_btns {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單結束*/
+        /*漸變效果*/
+        transition: max-height 0.5s;
+        margin-top: 1px;
+        /*絕對定位疊在網頁上*/
+        position: absolute;
+        /*權重*/
+        z-index: 100;
+        /*header 80px+1px boder 線條*/
+        top: 136px;
+        /* left:0 right:0表示滿版 */
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.75);
     }
-    
-    .menu_btns{
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
+    .menu_btns li {
+        float: none;
+        border-bottom: 1px solid white;
+        height: 50px;
+        text-align: center;
+    }
+    .menu_btns li a {
+        display: block;
         height: 100%;
-    }
-    
-    .menu_btns a{
-        width: 100%;
-        color: white;
+        transition: all 1.0s;
         text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
     }
-    
-    .menu_btns1{
-        width: 50%;
+    .menu_btns li a:hover {
+        background: gray;
     }
-    
-    .menu_btns2{
+    .showmenubar {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.75);
+        
+        border-bottom: 1px solid white;
+    }
+    .showmenu {
+        display: block;
+        float: right;
+        margin: 10px;
+    }
+    .showmenu i {
+        font-size: 30px;
+    }
+    /*jQuery點擊後動態在 body 加上 class */
+    .menu-show .menu_btns {
+        max-height: 500px;
+    }
+    .menu_btns2 {
         display: none;
     }
-    
-    .menu li{
-        width: 150px;
-        height: auto;
-        list-style-type:none;
-        font-size:13px;
-        font-weight: bold;
-        text-align: center;
-        padding:10px 0px;
-        margin: 0px 10px;
-    }
-    .menu li:hover{
-        background-color: gray;
-    }
-    /* main content */
-    .maincontent{
+    /* maincontent */
+    .maincontent {
         min-height: 700px;
     }
-    
     /* footer */
-    footer{
-        background-color : rgba(0,0,0, 0.75);
-        width : 100%;
-        height: 70px;
-        margin-top: 100px;
+    footer {
+        display: none;
     }
-    
-    .bottom{
-        font-size: 8px;
-    }
-    
-    .bottom p{
-        text-align: center;
-    }
-    
-    
 }
