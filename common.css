@@ -152,6 +152,9 @@
         width: 500px;
         text-align: center;
     }
+    .showmenu {
+        display: none;
+    }
 }
 
 /* M SIZE */
