@@ -86,7 +86,7 @@
     .maincontent_menu {
         min-height: 700px;
         display: block;
-        width: 80%;
+        width: 100%;
     }
     .main_content_h {
         display: flex;
@@ -94,9 +94,9 @@
     }
     .main_content {
         display: flex;
-        width: 46%;
+        width: 40%;
         height: 240px;
-        margin: 25px 0px 0px 2.5%;
+        margin: 25px 0px 0px 1.5%;
         border-radius: 20px;
         background: rgba(0, 0, 0, 0.45);
     }
@@ -109,38 +109,37 @@
     .main_content_text_h {
         width: 36%;
         display: block;
+        font-size: 20px;
     }
     .main_content_text {
         margin: 25px 0px 0px 15%;
         width: 100%;
-        height: 140px;
+        height: 130px;
         background: blue;
     }
     .main_content_text_h a {
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 50%;
-        height: 15px;
-        background-color: #4CAF50;
+        width: 65%;
+        height: 40px;
+        background-color: rgb(175, 0, 8);
+        font-size: 22px;
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 0px 0px 0px 0px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-    }
-    .maincontent_save {
-        width: 15%;
-        height: 1070px;
-        margin-top: 25px;
-        background: red;
+        line-height: 40px;
+        border-radius:5px;
+        
     }
     /* footer */
     footer {
         background-color: rgba(0, 0, 0, 0.75);
         width: 100%;
         height: 60px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .bottom {
         display: flex;
