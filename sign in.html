@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/common.css" text="text/css" rel="stylesheet">
+        <link href="css/sign in.css" text="text/css" rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/jquery.js"></script>
@@ -20,7 +21,7 @@
             </div>
             <div class="account">
                 <div class="sign_in">
-                    <a href="">
+                    <a href="sign in.html">
                         <p>
                             <i class="fa fa-sign-in" aria-hidden="true"></i>
                             SIGN IN
@@ -29,7 +30,7 @@
 
                 </div>
                 <div class="create_account">
-                    <a href="">
+                    <a href="create account.html">
                         <p>
                             <i class="fa fa-user-plus" aria-hidden="true"></i>
                             CREATE YOUR ACCOUNT
@@ -124,7 +125,30 @@
             </ul>
         </div>
         <div class="maincontent">
-            <!-- main content -->
+            <div class="content">
+                <div class="formRect">
+                    <form action="">
+                        <div class="forminput">
+                            <label for="account" class="accountLabel">account:</label>
+                            <input type="text" id="account">
+                            <br>
+                            <label for="password" class="passwordLabel">password:</label>
+                            <input type="password" id="password">
+                            <br>
+                            <input type="submit" id="submitBtn" value="Log in">
+                        </div>
+                    </form>
+                    <a href="create account.html">
+                        <button class="createAccount">
+                            Create your account
+                        </button>
+                    </a>
+
+                </div>
+                <div class="creatBtn">
+
+                </div>
+            </div>
         </div>
         <footer>
             <div class="bottom">

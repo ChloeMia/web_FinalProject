@@ -1,0 +1,79 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    .maincontent {
+        height: 500px;
+    }
+    .formRect{
+        width: 700px;
+        height: 300px;
+        margin: 200px auto;
+        background-color: rgb(175, 0, 8);;
+        border-radius: 30px;
+    }
+    .forminput{
+        font-size: 28px;
+        color: white;
+        position: relative;
+        top:50px;
+        left:60px;
+    } 
+    .accountLabel{
+        position: relative;
+        left:19px;
+    }
+    .passwordLabel{
+        
+    }
+    #account{
+        position: relative;
+        left:109px;
+        width: 300px;
+        top:-5px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #password{
+        position: relative;
+        left:88px;
+        width: 300px;
+        top:-5px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    #submitBtn{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        left:400px;
+        top:90px;
+        width: 180px;
+        height: 60px;
+        background: rgb(115,0,4);
+        border: none;
+        border-radius: 10px;
+    }
+    .createAccount{
+        position: relative;
+        top:200px;
+        left:100px;
+        text-decoration:none;
+        color:white;
+        background: rgb(115,0,4);
+        border: none;
+        height: 50px;
+        width: 500px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    
+}
