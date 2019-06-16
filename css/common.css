@@ -96,7 +96,14 @@
         width: 500px;
         text-align: center;
     }
+    /* rwd */
     .showmenu {
+        display: none;
+    }
+    .RWDL{
+        display:flex;
+    }
+    .RWDS{
         display: none;
     }
 }
@@ -119,40 +126,8 @@
         background-image: url("../image/background.jpg");
     }
     /* top */
-    .top {
-        display: flex;
-        padding: 0px 20px;
-        text-align: center;
-    }
-    /* top home */
-    .top .home i {
-        font-size: 80px;
-        vertical-align: middle;
-    }
-    /*top account*/
-    .account {
-        display: flex;
-        margin: 20px 10px 20px 0px;
-    }
-    i, p {
-        color: white;
-    }
-    .account i {
-        font-size: 20px;
-        vertical-align: middle;
-        margin-right: 5px;
-    }
-    .account a {
-        text-decoration: none;
-    }
-    .account p {
-        font-size: 8px;
-        font-weight: bold;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .sign_in {
-        margin-right: 24px;
+    .top{
+        display: none;
     }
     /* menu */
     .menu_btns {
@@ -168,7 +143,7 @@
         /*權重*/
         z-index: 100;
         /*header 80px+1px boder 線條*/
-        top: 136px;
+        top: 86px;
         /* left:0 right:0表示滿版 */
         left: 0;
         right: 0;
@@ -193,19 +168,23 @@
         background: gray;
     }
     .showmenubar {
-        width: 100%;
+        width: 100%;    
         height: 50px;
         background-color: rgba(0, 0, 0, 0.75);
-        
+        margin-top: 36px;
         border-bottom: 1px solid white;
     }
     .showmenu {
         display: block;
         float: right;
         margin: 10px;
+        color: white;
     }
     .showmenu i {
         font-size: 30px;
+    }
+    .separateLine{
+        background-color: black;
     }
     /*jQuery點擊後動態在 body 加上 class */
     .menu-show .menu_btns {
@@ -214,12 +193,15 @@
     .menu_btns2 {
         display: none;
     }
-    /* maincontent */
-    .maincontent {
-        min-height: 700px;
-    }
     /* footer */
     footer {
         display: none;
+    }
+    /* rwd */
+    .RWDL{
+        display: none;
+    }
+    .RWDS{
+        display: block;
     }
 }
