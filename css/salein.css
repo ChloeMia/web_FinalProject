@@ -1,6 +1,6 @@
 /* L SIZE */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
     /* main content */
     .maincontent {
         width: 100%;
@@ -9,27 +9,27 @@
     }
     .main_photo{
         width: 60%;
-        background: blue;
         margin-left: 20%;
-        height: 500px;
+        height: 400px;
         text-decoration:none;
         margin-top: 50px;
     }
     .main_buttom{
         display: flex;
-        height: 300px;
-        width: 60%;
+        height: 400px;
+        width: 53%;
         margin-top: 30px;
-        margin-left: 20%;
+        margin-left: 24%;
     }
     .main_buttom_text{
         
         width: 75%;
-        background: GREEN;
+        background: rgba(0, 0, 0, 0.45);
+        padding-left: 20px;
         height: 100%;
     }
     .main_buttom_buttom{
-        margin-left: 5%;
+        margin-left: 3%;
         width: 20%;
         height: 100%;
     }
@@ -45,14 +45,22 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        line-height: 270px;
+        line-height: 370px;
         border-radius:10px;
+    }
+    .main_buttom p{
+    font-size: 45px;
+    line-height: 100px;
+    }
+    .main_photo img{
+        margin-top: 50px;
+        width: 100%;
     }
 }
 
 /* M SIZE */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
      /* main content */
      .maincontent {
         width: 100%;
