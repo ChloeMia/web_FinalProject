@@ -1,0 +1,61 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    /* main content */
+    .maincontent {
+        width: 100%;
+        background: red;
+        height: 1000px;
+        margin-top: 50px;
+    }
+    .main_photo{
+        width: 80%;
+        background: blue;
+        margin-left: 10%;
+        height: 500px;
+        text-decoration:none;
+        margin-top: 50px;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+     /* main content */
+     .maincontent {
+        width: 100%;
+        background: red;
+        height: 1000px;
+        margin-top: 50px;
+    }
+    .main_photo{
+        display: block;
+        width: 80%;
+        background: blue;
+        margin-left: 10%;
+        height: 300px;
+        text-decoration:none;
+        margin-top: 50px;
+    }
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    /* main content */
+    .maincontent {
+        width: 100%;
+        background: red;
+        height: 1000px;
+        margin-top: 50px;
+    }
+    .main_photo{
+        display: block;
+        width: 80%;
+        background: blue;
+        margin-left: 10%;
+        height: 300px;
+        text-decoration:none;
+        margin-top: 50px;
+    }
+}
