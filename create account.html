@@ -10,6 +10,23 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/jquery.js"></script>
         <script src="js/common.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+        <script>
+                var firebaseConfig = {
+                apiKey: "AIzaSyD1HyA7cbtzYbNRF4Qf8K1BpBrf2tBMaWY",
+                authDomain: "finalproject-71899.firebaseapp.com",
+                databaseURL: "https://finalproject-71899.firebaseio.com",
+                projectId: "finalproject-71899",
+                storageBucket: "finalproject-71899.appspot.com",
+                messagingSenderId: "136768297750",
+                appId: "1:136768297750:web:5c7d976fa7d743c2"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                const db = firebase.firestore();
+        </script> 
+        <script src="js/database.js"></script> 
     </head>
     <body>
         <div class="top">
@@ -65,12 +82,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="onsale.html" target="_self">
+                    <a href="" target="_self">
                         On Sale
                     </a>
                 </li>
                 <li>
-                    <a href="chat.html" target="_self">
+                    <a href="" target="_self">
                         Chat
                     </a>
                 </li>
@@ -107,7 +124,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="chat.html" target="_self">
+                    <a href="" target="_self">
                         Chat
                     </a>
                 </li>
@@ -140,16 +157,16 @@
         <div class="maincontent">
             <div class="content">
                 <div class="formRect">
-                    <form action="">
+                    <form name="userform" method="POST" onsubmit="return createAccount()">
                         <div class="forminput">
                             <label for="name" class="nameLabel">name:</label>
-                            <input type="text" id="name">
+                            <input type="text" id="name" name="name" maxlength="5" required>
                             <br>
                             <label for="account" class="accountLabel">account:</label>
-                            <input type="text" id="account">
+                            <input type="text" id="account" name="account" maxlength="15" required>
                             <br>
                             <label for="password" class="passwordLabel">password:</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" name="password" maxlength="15">
                             <br>
                             <input type="submit" id="submitBtn" value="Create Account">
                         </div>
