@@ -3,7 +3,7 @@ function login() {
         snapshot.docs.forEach(doc => {
             if(doc.data().account == document.forms["userform"]["account"].value &&
                 doc.data().password == document.forms["userform"]["password"].value){
-                location.replace("https://www.w3schools.com/");
+                    window.location.href ="index.html"
             }
         })
     });
@@ -18,6 +18,8 @@ function createAccount() {
         name : document.forms["userform"]["name"].value,
         account : document.forms["userform"]["account"].value,
         password : document.forms["userform"]["password"].value
-    });
+    }).then(function(){
+        window.location.href ="index.html"
+    })
     return false;
 }
