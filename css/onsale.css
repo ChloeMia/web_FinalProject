@@ -17,6 +17,13 @@
         margin-top: 50px;
         border-radius:20px;
     }
+    .button_photo {
+        overflow:hidden;
+    }
+    .maincontent img{
+        margin-left: 10%;
+        width: 80%;
+    }
 }
 
 /* M SIZE */
