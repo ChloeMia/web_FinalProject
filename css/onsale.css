@@ -4,18 +4,18 @@
     /* main content */
     .maincontent {
         width: 100%;
-        background: red;
         height: 1000px;
         margin-top: 50px;
     }
     .maincontent a{
         display: block;
         width: 80%;
-        background: blue;
+        background-color: rgb(175, 0, 8);
         margin-left: 10%;
         height: 300px;
         text-decoration:none;
         margin-top: 50px;
+        border-radius:20px;
     }
 }
 
