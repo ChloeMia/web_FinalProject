@@ -28,12 +28,12 @@
         height: 80%;
     }
     .main_content_text_h {
-        width: 36%;
+        width: 40%;
         display: block;
         font-size: 20px;
     }
     .main_content_text {
-        margin: 25px 0px 0px 30%;
+        margin: 25px 0px 0px 25%;
         width: 100%;
         height: 130px;
     }
@@ -71,7 +71,7 @@
 
 /* M SIZE */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
      /* main content */
      .maincontent {
         min-width: 768px;
@@ -95,9 +95,8 @@
     }
     .main_content_picture {
         margin: 25px 0px 0px 7%;
-        width: 45%;
+        width: 200px;
         height: 80%;
-        background: red;
     }
     .main_content_text_h {
         width: 36%;
@@ -105,10 +104,9 @@
         font-size: 20px;
     }
     .main_content_text {
-        margin: 25px 0px 0px 15%;
+        margin: 25px 0px 0px 25%;
         width: 100%;
         height: 130px;
-        background: blue;
     }
     .main_content_text_h a {
         margin-top: 20px;
@@ -127,11 +125,21 @@
         border-radius:5px;
         
     }
+    .main_content_picture{
+        overflow:hidden;
+        border: 3px solid rgba(255,255,255,.05);
+    }
+    .main_content_picture img{
+        padding-right: 20px;
+        max-width: 100%;
+        display: block;
+        
+    }
 }
 
 /* S SIZE */
 
-@media screen and (min-width: 0) and (max-width: 768px) {
+@media screen and (min-width: 0) and (max-width: 767px) {
     /* main content */
     .maincontent {
         min-width: 320px;
@@ -143,11 +151,10 @@
         width: 100%;
     }
     .main_content_h {
-        padding-left: 14%;
     }
     .main_content {
         display: flex;
-        width: 80%;
+        width: 96%;
         height: 150px;
         margin: 25px 0px 0px 1.5%;
         border-radius: 20px;
@@ -155,20 +162,19 @@
     }
     .main_content_picture {
         margin: 15px 0px 0px 5%;
-        width: 45%;
+        width: 120px;
         height: 80%;
-        background: red;
     }
     .main_content_text_h {
         width: 36%;
         display: block;
-        font-size: 20px;
+        font-size: 15px;
     }
     .main_content_text {
-        margin: 15px 0px 0px 15%;
-        width: 100%;
+        margin: 15px 0px 0px 5%;
+        width: 110%;
         height: 70px;
-        background: blue;
+        color:white;
     }
     .main_content_text_h a {
         margin-top: 20px;
@@ -185,6 +191,16 @@
         display: inline-block;
         line-height: 30px;
         border-radius:5px;
+        
+    }
+    .main_content_picture{
+        overflow:hidden;
+        border: 3px solid rgba(255,255,255,.05);
+    }
+    .main_content_picture img{
+        padding-right: 20px;
+        max-width: 100%;
+        display: block;
         
     }
 }
