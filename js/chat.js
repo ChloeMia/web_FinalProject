@@ -10,6 +10,7 @@ function chat(e) {
 
 function initTextArea(){
     var signin = getCookie("signin");
+    alert(signin);
     if(signin == ""){
         document.getElementById("chat").innerHTML = "Please sign in first"
         document.getElementById("chat").disabled = true;
