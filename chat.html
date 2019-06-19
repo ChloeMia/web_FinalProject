@@ -8,10 +8,29 @@
         <link href="css/chat.css" text="text/css" rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/cookie.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/common.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
+        <script>
+                var firebaseConfig = {
+                apiKey: "AIzaSyD1HyA7cbtzYbNRF4Qf8K1BpBrf2tBMaWY",
+                authDomain: "finalproject-71899.firebaseapp.com",
+                databaseURL: "https://finalproject-71899.firebaseio.com",
+                projectId: "finalproject-71899",
+                storageBucket: "finalproject-71899.appspot.com",
+                messagingSenderId: "136768297750",
+                appId: "1:136768297750:web:5c7d976fa7d743c2"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+                const db = firebase.firestore();
+        </script> 
+        <script src="js/database.js"></script>
+        <script src="js/chat.js"></script>
     </head>
-    <body>
+    <body onload="initTextArea()">
         <div class="top">
             <div class="home">
                 <a href="index.html">
@@ -156,7 +175,7 @@
                     </ul>
                 </div>
                 <div class="textInput">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea id="chat" cols="30" rows="10" onkeypress="return chat(event)"></textarea>
                 </div>
             </div>
         </div>
