@@ -21,8 +21,10 @@
         overflow:hidden;
     }
     .maincontent img{
-        margin-left: 10%;
-        width: 80%;
+        display:block; 
+        margin:auto;
+        height: auto;
+        max-width: 80%;
     }
     .maincontent p{
         font-size: 30px;
