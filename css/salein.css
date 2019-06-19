@@ -4,8 +4,7 @@
     /* main content */
     .maincontent {
         width: 100%;
-        background: red;
-        height: 900px;
+        min-height: 800px;
         margin-top: 50px;
     }
     .main_photo{
