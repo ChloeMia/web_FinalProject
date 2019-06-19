@@ -3,7 +3,8 @@ function login() {
         if(doc.exists){
             if(doc.data().password == document.forms["userform"]["password"].value){
                 window.location.href ="index.html"
-                document.cookie = "name=" + doc.data().name + ";" + "signin=true";
+                localStorage.setItem("name", doc.data().name);
+                localStorage.setItem("signin", "true");
             }
             else{
                 alert("Wrong password");
@@ -23,7 +24,8 @@ function createAccount() {
         password : document.forms["userform"]["password"].value,
     }).then(function(){
         window.location.href ="index.html";
-        document.cookie = "name=" + doc.data().name + ";" + "signin=true";
+        localStorage.setItem("name", doc.data().name);
+        localStorage.setItem("signin", "true");
     });
     return false;
 }
