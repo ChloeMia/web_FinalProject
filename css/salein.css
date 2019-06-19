@@ -5,16 +5,49 @@
     .maincontent {
         width: 100%;
         background: red;
-        height: 1000px;
+        height: 900px;
         margin-top: 50px;
     }
     .main_photo{
-        width: 80%;
+        width: 60%;
         background: blue;
-        margin-left: 10%;
+        margin-left: 20%;
         height: 500px;
         text-decoration:none;
         margin-top: 50px;
+    }
+    .main_buttom{
+        display: flex;
+        height: 300px;
+        width: 60%;
+        margin-top: 30px;
+        margin-left: 20%;
+    }
+    .main_buttom_text{
+        
+        width: 75%;
+        background: GREEN;
+        height: 100%;
+    }
+    .main_buttom_buttom{
+        margin-left: 5%;
+        width: 20%;
+        height: 100%;
+    }
+
+    .main_buttom_buttom a{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(175, 0, 8);
+        font-size: 50px;
+        border: none;
+        color: white;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 270px;
+        border-radius:10px;
     }
 }
 
