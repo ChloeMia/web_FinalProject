@@ -1,7 +1,7 @@
 function chat(e) {
     if(e.keyCode == 13){
         db.collection('message').doc().set({
-            name : localStorage.getItem("name"),
+            name : getCookie("name"),
             message : document.getElementById("chat").value
         })
         return false;
@@ -9,10 +9,10 @@ function chat(e) {
 }
 
 function initTextArea(){
-    var signin = localStorage.getItem("sigin");
+    var signin = getCookie("signin");
     console.log(signin);
     alert(signin);
-    if(signin != "true"){
+    if(signin == ""){
         document.getElementById("chat").innerHTML = "Please sign in first"
         document.getElementById("chat").disabled = true;
     }
