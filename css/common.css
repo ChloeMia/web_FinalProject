@@ -119,7 +119,7 @@
 
 /* M SIZE */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     * {
         padding: 0px;
         margin: 0px;
@@ -238,7 +238,7 @@
 
 /* S SIZE */
 
-@media screen and (min-width: 0) and (max-width: 768px) {
+@media screen and (min-width: 0) and (max-width: 767px) {
     * {
         padding: 0px;
         margin: 0px;
