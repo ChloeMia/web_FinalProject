@@ -182,6 +182,7 @@
         height: auto;
     }
     .menu_btns {
+        display: flex;
         justify-content: space-evenly;
         width: 100%;
         height: 100%;
@@ -195,8 +196,7 @@
         width: 90%;
     }
     .menu li {
-        display: inline-block;
-        width: 150px;
+        width: 120px;
         height: auto;
         list-style-type: none;
         font-size: 18px;
