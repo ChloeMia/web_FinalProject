@@ -21,12 +21,19 @@ function login() {
 }
 
 function createAccount() {
-    db.collection('test').doc(document.forms["userform"]["account"].value).set({
-        name : document.forms["userform"]["name"].value,
-        account : document.forms["userform"]["account"].value,
-        password : document.forms["userform"]["password"].value,
-    }).then(function(){
-        window.location.href ="sign in.html"
+    db.collection('test').doc(document.forms["userform"]["account"].value).get().then((doc) => {
+        if(doc.exists){
+            alert("Account exists");
+        }
+        else{
+            db.collection('test').doc(document.forms["userform"]["account"].value).set({
+                name : document.forms["userform"]["name"].value,
+                account : document.forms["userform"]["account"].value,
+                password : document.forms["userform"]["password"].value,
+            }).then(function(){
+                window.location.href ="sign in.html"
+            });
+        }
     });
     return false;
 }
