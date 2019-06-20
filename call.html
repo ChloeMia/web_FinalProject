@@ -5,43 +5,22 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/common.css" text="text/css" rel="stylesheet">
-        <link href="css/chat.css" text="text/css" rel="stylesheet">
+        <link href="css/CALL.css" text="text/css" rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="js/cookie.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/common.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-firestore.js"></script>
-        <script>
-                var firebaseConfig = {
-                apiKey: "AIzaSyD1HyA7cbtzYbNRF4Qf8K1BpBrf2tBMaWY",
-                authDomain: "finalproject-71899.firebaseapp.com",
-                databaseURL: "https://finalproject-71899.firebaseio.com",
-                projectId: "finalproject-71899",
-                storageBucket: "finalproject-71899.appspot.com",
-                messagingSenderId: "136768297750",
-                appId: "1:136768297750:web:5c7d976fa7d743c2"
-                };
-                // Initialize Firebase
-                firebase.initializeApp(firebaseConfig);
-                const db = firebase.firestore();
-        </script> 
-        <script src="js/database.js"></script>
-        <script src="js/chat.js"></script>
     </head>
-    <body onload="initTextArea()">
+    <body>
         <div class="top">
             <div class="home">
                 <a href="index.html">
                     <i href="" class="fa fa-home"></i>
                 </a>
-
             </div>
-
             <div class="account">
                 <div class="shopping-cart">
-                    <a href="call.html">
+                    <a href="">
                         <button>
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         </button>
@@ -54,7 +33,6 @@
                             SIGN IN
                         </p>
                     </a>
-
                 </div>
                 <div class="create_account">
                     <a href="create account.html">
@@ -64,42 +42,39 @@
                         </p>
                     </a>
                 </div>
-
-
             </div>
         </div>
-
         <div class="menu RWDL">
             <div class="showmenubar">
                 <a href="#" class="showmenu"><i class="fa fa-bars"></i></a>
             </div>
             <ul class="menu_btns1 menu_btns">
-                <li>
-                    <a href="breakfast.html" target="_self">
-                        Breakfast
-                    </a>
-                </li>
-                <li>
-                    <a href="lunch.html" target="_self">
-                        Lunch
-                    </a>
-                </li>
-                <li>
-                    <a href="dinner.html" target="_self">
-                        Dinner
-                    </a>
-                </li>
-                <li>
-                    <a href="onsale.html" target="_self">
-                        On Sale
-                    </a>
-                </li>
-                <li>
-                    <a href="chat.html" target="_self">
-                        Chat
-                    </a>
-                </li>
-            </ul>
+                    <li>
+                        <a href="breakfast.html" target="_self">
+                            Breakfast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lunch.html" target="_self">
+                            Lunch
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dinner.html" target="_self">
+                            Dinner
+                        </a>
+                    </li>
+                    <li>
+                        <a href="onsale.html" target="_self">
+                            On Sale
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html" target="_self">
+                            Chat
+                        </a>
+                    </li>
+                </ul>
         </div>
         <div class="menu RWDS">
             <div class="showmenubar">
@@ -159,25 +134,13 @@
         </div>
         <div class="maincontent">
             <!-- main content -->
-            <div class="contentRect">
-                <p class="chatTitle">
-                    Chat
-                </p>
-                <div class="chatContent">
-                    <ul>
-                        <li>test:s87</li>
-                        <li>test:1213132</li>
-                        <li>test:sadasd</li>
-                        <li>test:s87</li>
-                        <li>test:1213132</li>
-                        <li>test:sadasd</li>
-                        
-                    </ul>
-                </div>
-                <div class="textInput">
-                    <textarea id="chat" cols="30" rows="10" onkeypress="return chat(event)"></textarea>
-                </div>
-            </div>
+        
+                    <div class = "main_buttom_text">
+                        <p>
+                            CALL  :  35-35-35-35
+                        </p>
+                    </div>
+                
         </div>
         <footer>
             <div class="bottom">

@@ -1,0 +1,33 @@
+/* L SIZE */
+
+@media screen and (min-width: 1280px) {
+    /* main content */
+    .main_buttom_text{
+        margin-top: 100px;
+        margin-left: 40%;
+        font-size :50px;
+    }
+}
+
+/* M SIZE */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+     /* main content */
+    .main_buttom_text{
+        margin-top: 70px;
+        margin-left: 30%;
+        font-size :40px;
+    }
+}
+
+/* S SIZE */
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    /* main content */
+    .main_buttom_text{
+        color: white;
+        margin-top: 50px;
+        margin-left: 20%;
+        font-size :30px;
+    }
+}
