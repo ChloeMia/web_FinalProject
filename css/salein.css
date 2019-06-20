@@ -5,7 +5,9 @@
     .maincontent {
         width: 100%;
         min-height: 800px;
-        margin-top: 50px;
+		max-width: 1280px;
+        margin: 50px auto;
+		
     }
     
     .main_buttom{
